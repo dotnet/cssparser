@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.WebTools.Languages.Css.Text;
 using Microsoft.WebTools.Languages.Css.TreeItems.PropertyValues;
-using Microsoft.WebTools.Languages.Shared.Text;
 
 // Reference:
 // http://www.w3.org/TR/CSS21/syndata.html

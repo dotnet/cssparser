@@ -1,5 +1,5 @@
 using System;
-using Microsoft.WebTools.Languages.Shared.Text;
+using Microsoft.WebTools.Languages.Css.Text;
 
 namespace Microsoft.WebTools.Languages.Css.Tokens
 {

@@ -1,10 +1,10 @@
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using Microsoft.WebTools.Languages.Css.Classify;
+using Microsoft.WebTools.Languages.Css.Text;
 using Microsoft.WebTools.Languages.Css.Tokens;
 using Microsoft.WebTools.Languages.Css.TreeItems;
 using Microsoft.WebTools.Languages.Css.Utilities;
-using Microsoft.WebTools.Languages.Shared.Text;
 
 namespace Microsoft.WebTools.Languages.Css.Parser
 {

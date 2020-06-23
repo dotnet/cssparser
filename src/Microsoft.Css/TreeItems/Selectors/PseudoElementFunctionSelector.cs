@@ -1,9 +1,9 @@
 using System.Diagnostics;
 using Microsoft.WebTools.Languages.Css.Classify;
 using Microsoft.WebTools.Languages.Css.Parser;
+using Microsoft.WebTools.Languages.Css.Text;
 using Microsoft.WebTools.Languages.Css.Tokens;
 using Microsoft.WebTools.Languages.Css.TreeItems.Functions;
-using Microsoft.WebTools.Languages.Shared.Text;
 
 namespace Microsoft.WebTools.Languages.Css.TreeItems.Selectors
 {

@@ -1,7 +1,6 @@
 using Microsoft.WebTools.Languages.Css.Parser;
+using Microsoft.WebTools.Languages.Css.Text;
 using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Shared.Text;
-using TextRange = Microsoft.WebTools.Languages.Css.Text.TextRange;
 
 namespace Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives
 {

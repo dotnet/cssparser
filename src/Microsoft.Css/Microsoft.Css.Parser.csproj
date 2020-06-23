@@ -4,11 +4,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <!-- Dependencies -->
-  <ItemGroup>
-    <ProjectReference Include="$(LanguagesSource)\Shared\Core\Microsoft.WebTools.Languages.Shared.csproj" />
-  </ItemGroup>
-
   <!-- Resources -->
   <ItemGroup>
     <Compile Update="Resource.Designer.cs">
