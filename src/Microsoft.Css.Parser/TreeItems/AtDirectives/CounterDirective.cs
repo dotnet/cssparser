@@ -1,4 +1,5 @@
-// http://www.w3.org/TR/css3-content/#counter1
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License. See License.txt in the project root for license information.
 
 using Microsoft.WebTools.Languages.Css.Classify;
 using Microsoft.WebTools.Languages.Css.Parser;

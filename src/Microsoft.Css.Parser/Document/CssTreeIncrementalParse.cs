@@ -1,4 +1,5 @@
-// #define DEBUG_INCREMENTAL_PARSE
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Collections.Generic;
 using System.Diagnostics;

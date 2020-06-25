@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License. See License.txt in the project root for license information.
+
 using System.Collections.Generic;
 using Microsoft.WebTools.Languages.Css.Classify;
 using Microsoft.WebTools.Languages.Css.Parser;
