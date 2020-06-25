@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30222.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Css.Parser", "src\Microsoft.Css\Microsoft.Css.Parser.csproj", "{49FB4027-B255-4644-A13C-9BEBC41622D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Css.Parser", "src\Microsoft.Css.Parser\Microsoft.Css.Parser.csproj", "{49FB4027-B255-4644-A13C-9BEBC41622D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84D4F520-0FDB-40C3-87BC-7CE5AD370562}"
 EndProject
