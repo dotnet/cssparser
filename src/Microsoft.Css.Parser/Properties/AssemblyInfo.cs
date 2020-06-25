@@ -1,3 +1,3 @@
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Microsoft.CssParser.Test")]
+[assembly: InternalsVisibleTo("Microsoft.Css.Parser.Test")]
