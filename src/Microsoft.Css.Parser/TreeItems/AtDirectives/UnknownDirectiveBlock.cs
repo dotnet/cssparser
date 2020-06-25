@@ -2,12 +2,12 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives
+namespace Microsoft.Css.Parser.TreeItems.AtDirectives
 {
     /// <summary>
     /// This class holds declarations and @directives that are inside of another @directive.

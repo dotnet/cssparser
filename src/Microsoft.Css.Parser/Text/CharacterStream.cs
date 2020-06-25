@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     /// <summary>
     /// Helper class that represents stream of characters for a parser or tokenizer

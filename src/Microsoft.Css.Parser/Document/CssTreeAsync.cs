@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System;
-using Microsoft.WebTools.Languages.Css.TreeItems;
+using Microsoft.Css.Parser.TreeItems;
 
-namespace Microsoft.WebTools.Languages.Css.Document
+namespace Microsoft.Css.Parser.Document
 {
     /// <summary>
     /// This is expected to be passed to background threads so that they can read a StyleSheet

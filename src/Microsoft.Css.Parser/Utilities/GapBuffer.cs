@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Microsoft.WebTools.Languages.Css.Utilities
+namespace Microsoft.Css.Parser.Utilities
 {
     /// <summary>
     /// This is an array with an empty gap inside of it. The item indexes

@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System;
-using Microsoft.WebTools.Languages.Css.Parser;
+using Microsoft.Css.Parser.Parser;
 
-namespace Microsoft.WebTools.Languages.Css.Document
+namespace Microsoft.Css.Parser.Document
 {
     public class CssItemsChangedEventArgs : EventArgs
     {

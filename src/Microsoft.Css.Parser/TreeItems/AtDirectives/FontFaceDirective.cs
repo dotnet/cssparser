@@ -1,11 +1,11 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives
+namespace Microsoft.Css.Parser.TreeItems.AtDirectives
 {
     // http://www.w3.org/TR/css3-webfonts/#the-font-face-rule
     // http://www.w3.org/TR/2002/WD-css3-webfonts-20020802/#font-descriptions

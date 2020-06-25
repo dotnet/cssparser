@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Tokens;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems
+namespace Microsoft.Css.Parser.TreeItems
 {
     /// <summary>
     /// Class represents block item i.g. item that has opening and closing curly braces

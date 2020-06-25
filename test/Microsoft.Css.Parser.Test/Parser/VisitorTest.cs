@@ -1,11 +1,11 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Test;
+using Microsoft.Css.Parser.TreeItems;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Test;
-using Microsoft.WebTools.Languages.Css.TreeItems;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     [TestClass]
     public class TreeVisitorTest : CssUnitTestBase

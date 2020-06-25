@@ -1,12 +1,12 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     /// <summary>
     /// Text provider abstraction.
     /// Can be implemented on a string <seealso cref="StringTextProvider"/> or
-    /// on a Visual Studio ITextSnapshot (see Microsoft.WebTools.Languages.Shared.Editor.Impl implementation)
+    /// on a Visual Studio ITextSnapshot
     /// </summary>
     public interface ITextProvider
     {

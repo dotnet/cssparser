@@ -2,14 +2,14 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.TreeItems.PropertyValues;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.TreeItems.PropertyValues;
 
 // Reference:
 // http://www.w3.org/TR/CSS21/syndata.html
 // http://www.w3.org/TR/CSS21/grammar.html
 
-namespace Microsoft.WebTools.Languages.Css.Tokens
+namespace Microsoft.Css.Parser.Tokens
 {
     public interface ICssTokenizer
     {

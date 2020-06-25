@@ -1,10 +1,10 @@
 ﻿// Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Text;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Text
+namespace Microsoft.Css.Parser.Test.Text
 {
 
     [TestClass]

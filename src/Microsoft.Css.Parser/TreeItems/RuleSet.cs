@@ -1,13 +1,13 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems.Selectors;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems.Selectors;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems
+namespace Microsoft.Css.Parser.TreeItems
 {
     // http://www.w3.org/TR/2009/WD-css3-selectors-20090310/#grammar
     // ruleset : selectors_group

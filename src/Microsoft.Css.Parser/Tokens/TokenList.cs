@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Diagnostics.CodeAnalysis;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.Tokens
+namespace Microsoft.Css.Parser.Tokens
 {
     /// <summary>
     /// This is used to store a sorted list of tokens.

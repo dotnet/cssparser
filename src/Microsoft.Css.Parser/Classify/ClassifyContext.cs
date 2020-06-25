@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.WebTools.Languages.Css.Classify
+namespace Microsoft.Css.Parser.Classify
 {
     // Context for colorization. Items may declare their own context or have context
     // provided by parent element. For example, token items in a property value may

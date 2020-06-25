@@ -3,7 +3,7 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Microsoft.WebTools.Languages.Css.Test
+namespace Microsoft.Css.Parser.Test
 {
     /// <summary>
     /// This is the base class for all unit tests

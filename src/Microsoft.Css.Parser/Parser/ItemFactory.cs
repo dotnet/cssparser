@@ -3,10 +3,10 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     /// <summary>
     /// CSS parse item factory. Parser calls this interface when it is about to create an item.

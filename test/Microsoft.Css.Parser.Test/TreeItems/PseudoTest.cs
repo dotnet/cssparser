@@ -4,13 +4,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems.Selectors;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems.Selectors;
 
-namespace Microsoft.WebTools.Languages.Css.Test.TreeItems
+namespace Microsoft.Css.Parser.Test.TreeItems
 {
     [TestClass]
     public class PseudoClassTest : CssUnitTestBase

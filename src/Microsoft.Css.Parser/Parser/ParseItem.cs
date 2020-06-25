@@ -3,13 +3,13 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     /// <summary>
     /// Base class for any item in the CSS tree

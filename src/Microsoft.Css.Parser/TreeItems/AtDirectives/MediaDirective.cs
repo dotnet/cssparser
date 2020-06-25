@@ -1,12 +1,12 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives
+namespace Microsoft.Css.Parser.TreeItems.AtDirectives
 {
     // CSS3 : http://www.w3.org/TR/css3-mediaqueries/
     // media : MEDIA_SYM S* media_list LBRACE S* ruleset* '}' S*

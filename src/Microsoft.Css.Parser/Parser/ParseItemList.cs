@@ -3,13 +3,13 @@
 
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     /// <summary>
     /// A sorted collection of parse items (sorted by start position within the text)

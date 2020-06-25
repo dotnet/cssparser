@@ -4,10 +4,10 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.Tokens
+namespace Microsoft.Css.Parser.Tokens
 {
     // Basic tokens. Note that some tokens represent more complex constructs than others.
     // If character sequence is unique and cannot be interpreted differently and most probably

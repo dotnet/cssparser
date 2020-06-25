@@ -2,14 +2,14 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Linq;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.TreeItems.AtDirectives;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives;
 
-namespace Microsoft.WebTools.Languages.Css.Test.TreeItems
+namespace Microsoft.Css.Parser.Test.TreeItems
 {
     [TestClass]
     public class RuleBlockTest : CssUnitTestBase

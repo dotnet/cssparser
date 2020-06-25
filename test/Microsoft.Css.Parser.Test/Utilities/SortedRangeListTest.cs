@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Utilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Utilities
+namespace Microsoft.Css.Parser.Test.Utilities
 {
     [TestClass]
     public class SortedRangeListTest : CssUnitTestBase

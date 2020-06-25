@@ -3,12 +3,12 @@
 
 using System;
 using System.Text;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
 
-namespace Microsoft.WebTools.Languages.Css
+namespace Microsoft.Css.Parser
 {
     internal sealed class DebugWriter
     {

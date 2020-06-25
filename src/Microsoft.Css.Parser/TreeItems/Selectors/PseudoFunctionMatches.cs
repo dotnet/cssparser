@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.TreeItems.Functions;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.TreeItems.Functions;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.Selectors
+namespace Microsoft.Css.Parser.TreeItems.Selectors
 {
     /// <summary>
     /// CSS :matches() pseudo class function

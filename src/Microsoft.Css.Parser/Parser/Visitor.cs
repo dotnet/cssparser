@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     public enum VisitItemResult
     {

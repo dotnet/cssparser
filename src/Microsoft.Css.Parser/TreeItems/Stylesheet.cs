@@ -3,15 +3,15 @@
 
 using System.Collections.Generic;
 using System.Globalization;
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives;
-using Microsoft.WebTools.Languages.Css.TreeItems.Comments;
-using Microsoft.WebTools.Languages.Css.Utilities;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems.AtDirectives;
+using Microsoft.Css.Parser.TreeItems.Comments;
+using Microsoft.Css.Parser.Utilities;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems
+namespace Microsoft.Css.Parser.TreeItems
 {
     // Classes are defined similar to BNF grammar here
     // http://www.w3.org/TR/2007/CR-CSS21-20070719/grammar.html

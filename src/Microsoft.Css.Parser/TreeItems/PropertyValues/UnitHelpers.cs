@@ -1,9 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Text;
+using Microsoft.Css.Parser.Text;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.PropertyValues
+namespace Microsoft.Css.Parser.TreeItems.PropertyValues
 {
     internal static class UnitHelpers
     {

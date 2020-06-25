@@ -2,9 +2,9 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System;
-using Microsoft.WebTools.Languages.Css.Text;
+using Microsoft.Css.Parser.Text;
 
-namespace Microsoft.WebTools.Languages.Css.Tokens
+namespace Microsoft.Css.Parser.Tokens
 {
     /// <summary>
     /// Computes new tokens for a changed range of text (given the old tokens)

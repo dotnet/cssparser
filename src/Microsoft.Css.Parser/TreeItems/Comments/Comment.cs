@@ -1,9 +1,9 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Parser;
+using Microsoft.Css.Parser.Parser;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.Comments
+namespace Microsoft.Css.Parser.TreeItems.Comments
 {
     /// <summary>
     /// Base class for any type of comment

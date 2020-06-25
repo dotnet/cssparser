@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Text;
 using System.Diagnostics;
+using Microsoft.Css.Parser.Text;
 
-namespace Microsoft.WebTools.Languages.Css.Tokens
+namespace Microsoft.Css.Parser.Tokens
 {
     /// <summary>
     /// Helps iterate over an array of tokens

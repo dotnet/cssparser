@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Text;
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     /// <summary>
     /// A helper class exposing various helper functions that

@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Classify;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Classify;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Classify
+namespace Microsoft.Css.Parser.Test.Classify
 {
     [TestClass]
     public class ClassifyContextTest : CssUnitTestBase

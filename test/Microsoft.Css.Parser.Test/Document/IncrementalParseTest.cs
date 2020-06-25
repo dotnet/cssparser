@@ -1,15 +1,15 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Document;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.TreeItems.AtDirectives;
+using Microsoft.Css.Parser.TreeItems.Comments;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Document;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives;
-using Microsoft.WebTools.Languages.Css.TreeItems.Comments;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Document
+namespace Microsoft.Css.Parser.Test.Document
 {
     [TestClass]
     public class IncrementalParseTest : CssUnitTestBase

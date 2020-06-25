@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.WebTools.Languages.Css.Utilities
+namespace Microsoft.Css.Parser.Utilities
 {
     /// <summary>
     /// This class maps item types to a list of "handlers", which could be anything.

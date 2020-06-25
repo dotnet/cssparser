@@ -4,12 +4,11 @@
 using System;
 using System.IO;
 using System.Text;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Test.Utilities;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Tokens
+namespace Microsoft.Css.Parser.Test.Tokens
 {
     [TestClass]
     public class TokenizeFilesTest : CssUnitTestBase

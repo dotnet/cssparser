@@ -2,12 +2,12 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.Comments
+namespace Microsoft.Css.Parser.TreeItems.Comments
 {
     /// <summary>
     /// C-type of comment (/* ... */)

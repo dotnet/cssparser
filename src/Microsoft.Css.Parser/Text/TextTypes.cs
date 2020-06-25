@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     [Flags]
     public enum TextTypes

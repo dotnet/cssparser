@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     internal static class TextRange
     {

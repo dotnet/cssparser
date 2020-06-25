@@ -3,14 +3,13 @@
 
 using System;
 using System.IO;
+using Microsoft.Css.Parser.Test;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Test;
-using Microsoft.WebTools.Languages.Css.Test.Utilities;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     [TestClass]
     public class ParseFilesTest : CssUnitTestBase

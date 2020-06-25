@@ -1,10 +1,10 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Tokens;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.Test.Tokens
+namespace Microsoft.Css.Parser.Test.Tokens
 {
     [TestClass]
     public class TokenListTest : CssUnitTestBase

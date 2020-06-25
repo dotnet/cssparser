@@ -1,12 +1,12 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives
+namespace Microsoft.Css.Parser.TreeItems.AtDirectives
 {
     // http://www.w3.org/TR/2009/WD-css3-animations-20090320/
     //  keyframes-rule: '@keyframes' IDENT '{' keyframes-blocks '}';

@@ -3,12 +3,12 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems.PropertyValues;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems.PropertyValues;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems
+namespace Microsoft.Css.Parser.TreeItems
 {
     /// <summary>
     /// This represents unexpected braces and their content: {...}, [...], or (...)

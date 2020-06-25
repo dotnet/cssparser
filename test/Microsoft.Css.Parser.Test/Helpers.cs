@@ -2,12 +2,12 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.IO;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
 
-namespace Microsoft.WebTools.Languages.Css.Test
+namespace Microsoft.Css.Parser.Test
 {
     internal static class Helpers
     {
@@ -26,7 +26,7 @@ namespace Microsoft.WebTools.Languages.Css.Test
 
         static public TokenList MakeTokens(ITextProvider textProvider)
         {
-            Microsoft.WebTools.Languages.Css.Tokens.CssTokenizer tokenizer = new Microsoft.WebTools.Languages.Css.Tokens.CssTokenizer();
+            CssTokenizer tokenizer = new CssTokenizer();
             TokenList tokens = tokenizer.Tokenize(textProvider, 0, textProvider.Length, keepWhiteSpace: false);
             return tokens;
         }

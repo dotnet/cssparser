@@ -2,10 +2,10 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Collections.Generic;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.TreeItems.Comments;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.TreeItems.Comments;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     /// <summary>
     /// Base class for CSS items that can contain children

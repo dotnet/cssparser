@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Microsoft.WebTools.Languages.Css.Utilities
+namespace Microsoft.Css.Parser.Utilities
 {
     /// <summary>
     /// This list automatically keeps its children in sorted order (duplicates are allowed)

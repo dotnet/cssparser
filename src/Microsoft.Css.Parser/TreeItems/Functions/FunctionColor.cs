@@ -2,11 +2,11 @@
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
 using System.Globalization;
-using Microsoft.WebTools.Languages.Css.Classify;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.TreeItems.PropertyValues;
+using Microsoft.Css.Parser.Classify;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.TreeItems.PropertyValues;
 
-namespace Microsoft.WebTools.Languages.Css.TreeItems.Functions
+namespace Microsoft.Css.Parser.TreeItems.Functions
 {
     internal enum ColorFunctionType
     {

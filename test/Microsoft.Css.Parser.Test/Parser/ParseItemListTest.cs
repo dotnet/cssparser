@@ -1,13 +1,13 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License. See License.txt in the project root for license information.
 
+using Microsoft.Css.Parser.Test;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.TreeItems.AtDirectives;
+using Microsoft.Css.Parser.TreeItems.Comments;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.WebTools.Languages.Css.Test;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.TreeItems.AtDirectives;
-using Microsoft.WebTools.Languages.Css.TreeItems.Comments;
 
-namespace Microsoft.WebTools.Languages.Css.Parser
+namespace Microsoft.Css.Parser.Parser
 {
     [TestClass]
     public class ParseItemCollectionTest : CssUnitTestBase

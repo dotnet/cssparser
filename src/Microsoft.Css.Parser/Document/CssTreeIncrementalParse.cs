@@ -3,13 +3,13 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.WebTools.Languages.Css.Parser;
-using Microsoft.WebTools.Languages.Css.Text;
-using Microsoft.WebTools.Languages.Css.Tokens;
-using Microsoft.WebTools.Languages.Css.TreeItems;
-using Microsoft.WebTools.Languages.Css.TreeItems.Comments;
+using Microsoft.Css.Parser.Parser;
+using Microsoft.Css.Parser.Text;
+using Microsoft.Css.Parser.Tokens;
+using Microsoft.Css.Parser.TreeItems;
+using Microsoft.Css.Parser.TreeItems.Comments;
 
-namespace Microsoft.WebTools.Languages.Css.Document
+namespace Microsoft.Css.Parser.Document
 {
     /// <summary>
     /// Adds incremental parsing support to the CssTree class.

@@ -3,7 +3,7 @@
 
 using System.Diagnostics;
 
-namespace Microsoft.WebTools.Languages.Css.Text
+namespace Microsoft.Css.Parser.Text
 {
     /// <summary>
     /// Helpers functions for dealing with text sources
