@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Microsoft</Authors>
+    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
+    <PackageDescription>CSS parser. Only intended for internal use within ASP.NET Core.</PackageDescription>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://github.com/dotnet/cssparser/blob/master/LICENSE.txt</PackageLicenseUrl>
   </PropertyGroup>
 
   <!-- Resources -->
